@@ -6,6 +6,7 @@ namespace PracticandoCsharp.Entidades
 {
     public class Escuela
     {
+        public string UniqueId { get;private  set; }
         private string nombre;
         public string Nombre
         {
@@ -22,11 +23,8 @@ namespace PracticandoCsharp.Entidades
         public string Pais { get; set; }
         public string Ciudad { get; set; }
         public TiposEscuela TipoEscuela { get; set; }
-
         public List<Curso> Cursos { get; set; }
-
         public Escuela(string nombre, int año) => (Nombre, AñoDeCreacion) = (nombre, año);
-
         public Escuela(string nombre, int año, TiposEscuela tipoEscuela, string pais = "", string ciudad = "")
         {
             Nombre = nombre;
@@ -35,7 +33,6 @@ namespace PracticandoCsharp.Entidades
             Pais = pais;
             Ciudad = ciudad;
         }
-       
         public override string ToString()
         {
             return $"Nombre: {Nombre} \nAño de creacion: {AñoDeCreacion} \nPais: {Pais} \nCiudad: {Ciudad} \nTipo: {TipoEscuela}";

@@ -11,3 +11,16 @@ C:\Users\BHCBARG\Desktop\Bilsan\PracticandoCsharp\PracticandoCsharp\obj\Debug\ne
 C:\Users\BHCBARG\Desktop\Bilsan\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.dll
 C:\Users\BHCBARG\Desktop\Bilsan\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.pdb
 C:\Users\BHCBARG\Desktop\Bilsan\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.genruntimeconfig.cache
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.exe
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.deps.json
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.runtimeconfig.json
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.runtimeconfig.dev.json
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.dll
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\bin\Debug\netcoreapp3.1\PracticandoCsharp.pdb
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.csprojAssemblyReference.cache
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.AssemblyInfoInputs.cache
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.AssemblyInfo.cs
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.csproj.CoreCompileInputs.cache
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.dll
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.pdb
+C:\RepositoriosGit\PracticandoCsharp\PracticandoCsharp\obj\Debug\netcoreapp3.1\PracticandoCsharp.genruntimeconfig.cache
