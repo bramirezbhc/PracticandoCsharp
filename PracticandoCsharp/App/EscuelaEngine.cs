@@ -61,7 +61,7 @@ namespace PracticandoCsharp.App
             string[] apelllido1 = { "RUIZ", "SARMIENTO", "URIBE", "MADURO", "TRUMP", "TOLEDO", "HERRERA" };
             string[] nombre2 = {"FREDY",  "ANABEL", "RICK", "MURTY", "SILVANA", "DIOMEDES", "NICOMEDES", "TEODORO"};
 
-            var listaAlumnos = 
+            
 
         }
 
