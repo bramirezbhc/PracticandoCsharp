@@ -6,7 +6,7 @@ namespace PracticandoCsharp.Entidades
 {
     public class Escuela
     {
-        public string UniqueId { get;private  set; }
+        public string UniqueId { get; private set; } = Guid.NewGuid().ToString();
         private string nombre;
         public string Nombre
         {
