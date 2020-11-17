@@ -6,6 +6,7 @@ namespace PracticandoCsharp.Entidades
 {
     public class Alumno
     {
+        public string Nombre { get; set; }
 
     }
 }

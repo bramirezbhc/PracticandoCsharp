@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj": {}
+    "C:\\RepositoriosGit\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj": {
+    "C:\\RepositoriosGit\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
+        "projectUniqueName": "C:\\RepositoriosGit\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
         "projectName": "PracticandoCsharp",
-        "projectPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\obj\\",
+        "projectPath": "C:\\RepositoriosGit\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
+        "packagesPath": "C:\\Users\\Kubuntu\\.nuget\\packages\\",
+        "outputPath": "C:\\RepositoriosGit\\PracticandoCsharp\\PracticandoCsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kubuntu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
