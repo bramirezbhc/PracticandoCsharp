@@ -6,8 +6,11 @@ namespace PracticandoCsharp.Entidades
 {
     public class Alumno
     {
-        public string UniqueId { get; set; }
+        //Propiedades
+        public string UniqueId { get; private set; }
         public string Nombre { get; set; }
+
+        //Constructor
         public Alumno() => UniqueId = Guid.NewGuid().ToString();
     }
 }

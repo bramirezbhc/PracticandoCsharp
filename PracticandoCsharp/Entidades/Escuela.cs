@@ -6,6 +6,7 @@ namespace PracticandoCsharp.Entidades
 {
     public class Escuela
     {
+        //Propiedades
         public string UniqueId { get; private set; } = Guid.NewGuid().ToString();
         private string nombre;
         public string Nombre
@@ -25,6 +26,7 @@ namespace PracticandoCsharp.Entidades
         public TiposEscuela TipoEscuela { get; set; }
         public List<Curso> Cursos { get; set; }
 
+        //Constructor sobrecargado +2
         public Escuela(string nombre, int año) => (Nombre, AñoDeCreacion) = (nombre, año);
         public Escuela(string nombre, int año, TiposEscuela tipoEscuela, string pais = "", string ciudad = "")
         {
@@ -34,6 +36,8 @@ namespace PracticandoCsharp.Entidades
             Pais = pais;
             Ciudad = ciudad;
         }
+
+        //Metodo override ToString()
         public override string ToString()
         {
             return $"Nombre: {Nombre} \nAño de creacion: {AñoDeCreacion} \nPais: {Pais} \nCiudad: {Ciudad} \nTipo: {TipoEscuela}";
