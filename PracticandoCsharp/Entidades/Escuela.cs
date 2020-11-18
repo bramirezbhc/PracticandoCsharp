@@ -24,6 +24,7 @@ namespace PracticandoCsharp.Entidades
         public string Ciudad { get; set; }
         public TiposEscuela TipoEscuela { get; set; }
         public List<Curso> Cursos { get; set; }
+
         public Escuela(string nombre, int año) => (Nombre, AñoDeCreacion) = (nombre, año);
         public Escuela(string nombre, int año, TiposEscuela tipoEscuela, string pais = "", string ciudad = "")
         {
