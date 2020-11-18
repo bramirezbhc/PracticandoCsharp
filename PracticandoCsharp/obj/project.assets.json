@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
+      "projectUniqueName": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
       "projectName": "PracticandoCsharp",
-      "projectPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
+      "projectPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp.csproj",
       "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\obj\\",
+      "outputPath": "C:\\Users\\BHCBARG\\Desktop\\Bilsan\\PracticandoCsharp\\PracticandoCsharp\\PracticandoCsharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
