@@ -14,7 +14,7 @@ namespace PracticandoCsharp
             var engine = new EscuelaEngine();
             engine.Inicializar();
             Printer.WriteTitle("Bienvenido a la Escuela");
-            Printer.Beep(3000, cantidad:20);
+            Printer.Beep(3000, cantidad:3);
             ImprimirCursosEscuela(engine.Escuela);
             Console.ReadLine();
         }
@@ -25,6 +25,7 @@ namespace PracticandoCsharp
             foreach (var curso in escuela.Cursos)
             {
                 WriteLine(curso);
+                WriteLine();
                 WriteLine();
             }
         }

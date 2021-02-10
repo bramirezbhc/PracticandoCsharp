@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using PracticandoCsharp.Entidades;
 
@@ -8,6 +9,7 @@ namespace PracticandoCsharp.App
     public class EscuelaEngine
     {
         public Escuela Escuela { get; set; }
+        public Curso Curso { get; set; }
 
         public EscuelaEngine()
         {
@@ -19,13 +21,18 @@ namespace PracticandoCsharp.App
 
             CargarCursos();
             CargarAsignaturas();
-            CargarAlumnos();
+
+            //foreach (var curso in Escuela.Cursos)
+            //{
+            //    curso.Alumnos.AddRange(CargarAlumnos());
+            //}
             CargarEvaluaciones();
         }
 
         private void CargarEvaluaciones()
         {
-            throw new NotImplementedException();
+            
+            
         }
 
         private void CargarAsignaturas()
@@ -35,7 +42,7 @@ namespace PracticandoCsharp.App
                 List<Asignatura> listaAsignaturas = new List<Asignatura>()
                 {
                    new Asignatura(){
-                    Nombre = "Matematicas"
+                    Nombre = "Matematicas",
                    },
                    new Asignatura()
                    {
@@ -49,20 +56,43 @@ namespace PracticandoCsharp.App
                    {
                        Nombre = "Ciencias Naturales"
                    }
-                };
+            };
 
-                curso.Asignaturas.AddRange(listaAsignaturas);
+                curso.Asignaturas = listaAsignaturas;
+
+
             }
         }
 
-        private void CargarAlumnos()
+        private List<Alumno> GenerarAlumnosAlAzar(int cantidad)
         {
             string[] nombre1 = { "ALBA", "FELIPA", "EUSEBIO", "FARID", "DONALD", "ALVARO", "NICOLAS"};
             string[] apelllido1 = { "RUIZ", "SARMIENTO", "URIBE", "MADURO", "TRUMP", "TOLEDO", "HERRERA" };
             string[] nombre2 = {"FREDY",  "ANABEL", "RICK", "MURTY", "SILVANA", "DIOMEDES", "NICOMEDES", "TEODORO"};
 
-            
+            var listaAlumnos = from n1 in nombre1
+                               from n2 in nombre2
+                               from a1 in apelllido1
+                               select new Alumno() { Nombre = $"{n1} {n2} {a1}" };
 
+            return listaAlumnos.OrderBy(al => al.UniqueId).Take(cantidad).ToList();
+        }
+
+        private List<Evaluaciones> GenerarEvaluaciones(int cantidad)
+        {
+            string[] evaluaciones = { "EXAMEN", "PRUEBA", "TAREA 1", "TAREA 2", "TAREA 3", "TAREAS 4", "PRUEBA EXAMEN", "EXPOSICION", "QUIZ"};
+
+            var listaEvaluaciones = from eval in evaluaciones
+                                    select new Evaluaciones() { Nombre = eval };
+
+            return listaEvaluaciones.OrderBy(ev => ev.UniqueId).Take(cantidad).ToList();
+        }
+
+        private List<Evaluaciones> GenerarEvaluacionesAlAzar()
+        {
+
+
+            return null;
         }
 
         private void CargarCursos()
@@ -88,9 +118,18 @@ namespace PracticandoCsharp.App
                 new Curso() {
                     Nombre = "C++",
                     Jornada = TiposJornada.noche
-
+                    
                 }
             };
+
+            Random rnd = new Random();
+
+            foreach (var curso in Escuela.Cursos)
+            {
+                int cantRandom = rnd.Next(5, 20);
+                curso.Alumnos = GenerarAlumnosAlAzar(cantRandom);
+            }
+
         }
     }
 }
